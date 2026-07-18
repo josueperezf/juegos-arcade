@@ -1,4 +1,4 @@
-## Juegos Arcade
+# Juegos Arcade
 
 Es una plataforma para jugar online y competir por la mayor cantidad de puntos.
 

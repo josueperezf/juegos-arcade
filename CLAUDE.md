@@ -32,3 +32,7 @@ npx skills@latest add Klerith/fernando-skills
 ```
 
 Prefer writing a spec before implementing new game features when these commands are available.
+
+## Design references
+
+`references/templates/` contains a standalone HTML/JSX prototype ("Arcade Vault") of the intended product: a game library, game detail/player, auth, and hall-of-fame screens, plus mock game data and a shared stylesheet (`styles.css`, neon/pixel arcade theme). These files use global `React`/`ReactDOM` and `localStorage`, not Next.js conventions — treat them as design/content reference only, not code to import directly. Consult them for intended screens, routes, and mock data shape when writing specs or implementing real `app/` routes and components.
