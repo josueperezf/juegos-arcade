@@ -8,15 +8,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Juegos Arcade — a platform for playing games online and competing for high scores. Currently a fresh `create-next-app` scaffold (Next.js 16.2.10, React 19.2.4, Tailwind CSS 4, TypeScript) with no game logic implemented yet: `app/page.tsx` is still the default template.
 
-## Commands
-
-```bash
-npm run dev     # start dev server
-npm run build   # production build
-npm run start   # run production build
-npm run lint    # eslint
-```
-
 No test runner is configured yet.
 
 ## Next.js version caveat
@@ -36,3 +27,7 @@ Prefer writing a spec before implementing new game features when these commands 
 ## Design references
 
 `references/templates/` contains a standalone HTML/JSX prototype ("Arcade Vault") of the intended product: a game library, game detail/player, auth, and hall-of-fame screens, plus mock game data and a shared stylesheet (`styles.css`, neon/pixel arcade theme). These files use global `React`/`ReactDOM` and `localStorage`, not Next.js conventions — treat them as design/content reference only, not code to import directly. Consult them for intended screens, routes, and mock data shape when writing specs or implementing real `app/` routes and components.
+
+## SKILLS
+
+Usa siempre /frontend-design para diseñar la interfaz de usuario.
