@@ -1,6 +1,6 @@
 # Spec 01 — MVP Visual Arcade Vault
 
-- **Estado:** Aprobado
+- **Estado:** Implementado
 - **Depende de:** ninguno (primer spec del proyecto)
 - **Fecha:** 2026-07-18
 - **Objetivo:** Implementar todas las pantallas visuales de Arcade Vault (Biblioteca, Detalle de juego, Reproductor, Login y Salón de la Fama) como rutas reales de Next.js, replicando fielmente el diseño y las interacciones de `references/templates/`, sin lógica de juego real.
